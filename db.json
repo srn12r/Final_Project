@@ -1,0 +1,97 @@
+{
+  "signup": [
+    {
+      "id": 1,
+      "name": "saravanan",
+      "email": "saravanan.ap@prodapt.com",
+      "phone": "987654321",
+      "password": "123123"
+    },
+    {
+      "id": 2,
+      "name": "saravananAP",
+      "email": "saravanan.ap@prodapt.com",
+      "phone": "987654321",
+      "password": "1234"
+    },
+    {
+      "name": "Nisha.M",
+      "email": "nisha@prodapt.com",
+      "phone": "9787203735",
+      "password": "nisha",
+      "id": 3
+    },
+    {
+      "name": "santhosh",
+      "email": "aps22@gmail.com",
+      "phone": "",
+      "password": "qwert",
+      "id": 4
+    },
+    {
+      "name": "raghu",
+      "email": "raghunandhan.s@gmail.com",
+      "phone": "",
+      "password": "12345",
+      "id": 5
+    }
+  ],
+  "comments": [],
+  "profile": [
+    {
+      "email": "nisha@prodapt.com",
+      "password": "nisha",
+      "id": 1
+    },
+    {
+      "email": "nisha@prodapt.com",
+      "password": "nisha",
+      "id": 2
+    },
+    {
+      "email": "nisha@prodapt.com",
+      "password": "nisha",
+      "id": 3
+    },
+    {
+      "email": "nisha@prodapt.com",
+      "password": "nisha",
+      "id": 4
+    },
+    {
+      "email": "raghunandhan",
+      "password": "qwertyu",
+      "id": 5
+    },
+    {
+      "email": "nisha@prodapt.com",
+      "password": "nisha",
+      "id": 6
+    },
+    {
+      "email": "nisha@prodapt.com",
+      "password": "nisha",
+      "id": 7
+    },
+    {
+      "email": "aps@gmail.com",
+      "password": "",
+      "id": 8
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 9
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 10
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 11
+    }
+  ]
+}

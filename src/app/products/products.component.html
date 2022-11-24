@@ -1,0 +1,71 @@
+<br><br><br>
+<div style="width:100% ;">
+    <div class="card-top container-fluid">
+        <div class="box-container d-flex">
+            <div class="item">
+                <a (click)="filter('')">
+                    <h6>ALL PRODUCTS</h6>
+                </a>
+            </div>
+            <div class="item">
+                <a (click)="filter('Doggy')">
+                    <h6>DOG</h6>
+                </a>
+            </div>
+            <div class="item">
+                <a (click)="filter('catty')">
+                    <h6>CAT</h6>
+                </a>
+            </div>
+            <div class="item">
+                <a (click)="filter('food')">
+
+                    <h6>DOG'S FOOD</h6>
+                </a>
+            </div>
+            <div class="item">
+                <a (click)="filter('cfood')">
+
+                    <h6>CAT'S FOOD</h6>
+                </a>
+            </div>
+            <div class="item">
+                <a (click)="filter('a')">
+
+                    <h6>PET PRODUCTS</h6>
+                </a>
+            </div>
+            <div class="item">
+                <a (click)="filter('b')">
+
+                    <h6>PET DRESS</h6>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- <app-carousel-food-dog></app-carousel-food-dog> -->
+
+
+
+
+
+    <div class="box-container ">
+        <div class="row">
+            <ng-container *ngFor="let item of filterCategory | filter:searchKey:'title'">
+                <div class="card col-md-3">
+
+                    <img src="{{item.image}}" alt="">
+
+                    <h5 style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">
+                        {{item.title}}</h5>
+                    <p style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">
+                        {{item.description}}</p>
+                    <p><strong>Price:</strong> ₹{{item.price}}</p>
+                    <button class="btn btn-primary" (click)=addtocart(item)>Add to cart</button>
+
+                </div>
+            </ng-container>
+
+        </div>
+    </div>

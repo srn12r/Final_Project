@@ -1,0 +1,508 @@
+[
+  {
+    "id": "1",
+    "title": "Laborader",
+    "price": 5000,
+    "description": "It's a sturdy,solid dog.Square in appearance,with a strong body and sturdy legs.It usually grows upto 24 inches.",
+    "category": "Doggy",
+    "image": "../assets/images/dog1.png",
+    "quantity": 0
+  },
+  {
+    "id": "2",
+    "title": "German Shepherd",
+    "image": "../assets/images/dog2.png",
+    "description": "German Shepherd(a)Alsatian is a German breed.It is a working dog of medium to large size.It is a guide dog for the blind and a watchdog for police and military departments.stands 24 to 26 inches",
+    "category": "Doggy",
+    "price": 7500,
+    "quantity": 0
+  },
+  {
+    "id": "3",
+    "title": "Golden retriever",
+    "image": "../assets/images/dog3.png",
+    "description": "Golden Retriever is a Scottish breed of retriever dog of medium size.It is characterised by a gentle and affectionate nature.It has a golden coat to its body.Healthy adult typically stands between 20 to 24 inches",
+    "color": "Black",
+    "price": 8000,
+    "quantity": 0,
+    "category": "Doggy"
+  },
+  {
+    "id": "4",
+    "title": "pug",
+    "image": "../assets/images/dog4.png",
+    "description": "Pug has a physically distinctive feature of a wrinkly,short-muzzled face and curled tail.Compact,square body with well developed and thick muscles all over the body.",
+    "price": 10000,
+    "quantity": 0,
+    "category": "Doggy"
+  },
+  {
+    "id": "5",
+    "title": "Pomeranian",
+    "image": "../assets/images/dog5.png",
+    "description": "Pomerian is classed as a toy dog breed because of its small size.It is a sturdy,healthy dog.Pomeranians are small dogs weighing 1 to 3.5 Kgs",
+    "price": 5000,
+    "quantity": 0,
+    "category": "Doggy"
+  },
+  {
+    "id": "6",
+    "title": "siberian husky",
+    "image": "../assets/images/dog6.png",
+    "description": "Siberian Husky has a double coat that is thicker than that of most other dog breeds.These are active, independent, mischievous, and playful.It grows about 20 to 24 inches.",
+    "price": 30000,
+    "discount": 10,
+    "quantity": 0,
+    "category": "Doggy"
+  },
+  {
+    "id": "7",
+    "title": "Doberman",
+    "image": "../assets/images/dog7.png",
+    "description": "Dobermann has a long muzzle.It stands on its pads and is not usually heavy-footed.These are originally intended as guard dogs,so males typically have a muscular and intimidating appearance.Females are usually thinner, but should not be spindly.The ideal height of these vary from 25 to 27 innches",
+    "price": 6000,
+    "discount": 10,
+    "quantity": 0,
+    "category": "Doggy"
+  },
+  {
+    "id": "8",
+    "title": "Rottweiler",
+    "image": "../assets/images/dog8.png",
+    "description": "Rottweiler is a breed of domestic dog, regarded as medium-to-large or large.The back is straight, strong and firm.These grows about 24 to 27 inches ",
+    "price": 12000,
+    "discount": 10,
+    "quantity": 0,
+    "category": "Doggy"
+  },
+  {
+    "id": "9",
+    "title": "Dalmatian",
+    "image": "../assets/images/dog9.png",
+    "description": " Dalmatian is a breed of medium-sized dog,,noted for its unique white coat marked with black or brown-colored spots.These are dogs with excellent endurance and stamina.These stands from 19 to 23 inches",
+    "price": 16000,
+    "discount": 10,
+    "quantity": 0,
+    "category": "Doggy"
+  },
+  {
+    "id": "10",
+    "title": "Siamese",
+    "image": "../assets/images/cat1.png",
+    "description": "Siamese describes something of or related to Siam(now called Thailand).These are long,elegant cats.They have piercing baby blue eyes,large ears,and a coat that comes in four different shades—seal,chocolate,blue and lilac.",
+    "price": 12000,
+    "discount": 10,
+    "quantity": 0,
+    "category": "catty"
+  },
+  {
+    "id": "11",
+    "title": "Persian",
+    "image": "../assets/images/cat2.png",
+    "description": "Persian cats have extremely long and thick coat,short legs,wide head with the ears set far apart,large eyes and an extremely shortened muzzle.",
+    "category": "catty",
+    "price": 10000,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "12",
+    "title": "Siberian",
+    "image": "../assets/images/cat3.png",
+    "description": "Siberian cats are intelligent and exceptionally playful.This breed is known to be slow to mature,taking as long as five years to graduate from kitten-like antics.This means the Siberian cat is a lot of fun to have around.This breed loves to climb,explore and play.",
+    "category": "catty",
+    "price": 35000,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "13",
+    "title": "Maine Coon",
+    "image": "../assets/images/cat4.png",
+    "description": "Maine Coons are heavily boned,muscular cat.Originally she was an outdoor cat,and later became a working breed who kept barns and homes clear of rodents.The head is large with tall ears.",
+    "category": "catty",
+    "price": 25000,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "14",
+    "title": "Scottish Fold",
+    "image": "../assets/images/cat5.png",
+    "description": "Scottish Fold Cats are one of the most affectionate,attentive and intelligent cats in the world.The head is round and the folded ears heighten that illusion of roundness.The eyes are very round, bright and clear.",
+    "category": "catty",
+    "price": 30000,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "15",
+    "title": "Himalayan Cat",
+    "image": "../assets/images/cat6.png",
+    "description": "The Himalayan cat is a breed or sub-breed of long-haired cats similar to the Persian,with the exception of its blue eyes and its point colouration,which were derived from crossing the Persian with the Siamese.Himalayan tends to have a round body and short legs,which makes it harder for them to jump as high as other cats do.",
+    "category": "catty",
+    "price": 17000,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "16",
+    "title": "pedigree ",
+    "image": "../assets/images/1.png",
+    "description": "Dry food for dog with meat & rice flavour,3 kg pack.Complete and balanced food for adult dogs providing strong muscles,bones & teeths.",
+    "category": "food",
+    "price": 650,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "17",
+    "title": "Drools ",
+    "image": "../assets/images/2.png",
+    "description": "Chicken and Egg Adult dry dog food.Pack of 3 Kg.Enriched in proteinswith proper ratio of nutritional elements.Ideal for all breed of dogs",
+    "category": "food",
+    "price": 550,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "18",
+    "title": "Himalaya pet food",
+    "image": "../assets/images/3.png",
+    "description": "Himalaya Healthy Chunk pet food for puppies and kittens that contains chicken and rice.This 3 Kg pack immunes the health system.Since it is fortified with herbs especially for newborns.",
+    "category": "food",
+    "price": 800,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "19",
+    "title": "Royal canin",
+    "image": "../assets/images/4.png",
+    "description": "Royal Canin Maxi Adult Pellet Dog and cat food with Chicken.This 4Kg pack gives the adults bone and joint support and Omega 3 EPA-DHA.",
+    "category": "food",
+    "price": 2800,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "20",
+    "title": "Happy Dog",
+    "image": "../assets/images/5",
+    "description": "This 2kg pack builds yhe dog's muscle strong with protein rich diet.Develops a shiny coat with Omega 3 & 6 fatty acids.",
+    "category": "food",
+    "price": 450,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "21",
+    "title": "Daimond",
+    "image": "../assets/images/6.png",
+    "description": "This pack weighing 1 kg provides a complete and balanced food for kittens.Vitamins and minerals rich food that supports natural defence",
+    "category": "food",
+    "price": 140,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "22",
+    "title": "Calcium Chicken Stick",
+    "image": "../assets/images/7.png",
+    "description": "These chicken sticks provides the best way of calcium to the puppies,that enhances the bone and teeth strength.",
+    "category": "food",
+    "price": 920,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "23",
+    "title": "Pedigree Puppy Chicken Egg and Rice",
+    "image": "../assets/images/8.png",
+    "description": "Pedigree Puppy Chicken Egg and Rice is a 3Kg of Complete and balanced puppy food with high range of protiens and fibres.Providinng strength and a shinier coat. ",
+    "category": "food",
+    "price": 650,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "24",
+    "title": "Purepet Chicken & Vegetable Adult Dry Dog Food",
+    "image": "../assets/images/9.png",
+    "description": "This 3 kg non-vegetarian,nutrition rich food provides a high quality diet formulated especially for ideal weight",
+    "category": "food",
+    "price": 700,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "25",
+    "title": "Collar",
+    "image": "../assets/images/c.png",
+    "description": "Slip on and adjustable buckle design: it is convenient to wear and take off, with non-slip rubber soles, reduce the chance of falling, and give you enough sense of security",
+    "category": "a",
+    "price": 59.99,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "26",
+    "title": "Leash",
+    "image": "../assets/images/leash.png",
+    "description": "Slip on and adjustable buckle design: it is convenient to wear and take off, with non-slip rubber soles, reduce the chance of falling, and give you enough sense of security",
+    "type": "Fashion",
+    "category": "a",
+    "color": "Black",
+    "price": 59.99,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "27",
+    "title": "Chew and Teething Toy",
+    "image": "../assets/images/chew.png",
+    "description": "Slip on and adjustable buckle design: it is convenient to wear and take off, with non-slip rubber soles, reduce the chance of falling, and give you enough sense of security",
+    "type": "Fashion",
+    "category": "a",
+    "color": "Black",
+    "price": 59.99,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "28",
+    "title": "Harness",
+    "image": "../assets/images/h.png",
+    "description": "Slip on and adjustable buckle design: it is convenient to wear and take off, with non-slip rubber soles, reduce the chance of falling, and give you enough sense of security",
+    "type": "Fashion",
+    "category": "a",
+    "color": "Black",
+    "price": 59.99,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "29",
+    "title": "Home",
+    "image": "../assets/images/home.png",
+    "description": "Slip on and adjustable buckle design: it is convenient to wear and take off, with non-slip rubber soles, reduce the chance of falling, and give you enough sense of security",
+    "type": "Fashion",
+    "category": "a",
+    "color": "Black",
+    "price": 59.99,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "30",
+    "title": " Metal Bristle Fur Care Glove",
+    "image": "../assets/images/comb.png",
+    "description": "Slip on and adjustable buckle design: it is convenient to wear and take off, with non-slip rubber soles, reduce the chance of falling, and give you enough sense of security",
+    "type": "Fashion",
+    "category": "a",
+    "color": "Black",
+    "price": 59.99,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "31",
+    "title": "Meat Up Adult Cat Food ,3 kg",
+    "image": "../assets/images/cf1.png",
+    "description": "This is a Non-vegetarian product and it gives healthy skin. Taurine for healthy heart and controls urinary ph.",
+    "category": "cfood",
+    "price": 1000,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "32",
+    "title": "Royal Canin Persian Adult Dry Cat Food 4kg",
+    "image": "../assets/images/cf2.png",
+    "description": "Suitable for Persian cats ages 1-10. It helps to maintain healthy skin and shiny coat.",
+    "category": "cfood",
+    "price": 3800,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "33",
+    "title": "Purepet Ocean Fish Kitten Cat Food",
+    "image": "../assets/images/cf3.png",
+    "description": "Enriched with Vitamins, Minerals and other Nutrients promote the health benefits of cat. It controls the urinary pH.",
+    "category": "cfood",
+    "price": 299,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "34",
+    "title": "Drools Ocean Fish Adult Cat Food",
+    "image": "../assets/images/cf4.png",
+    "description": "Taurine is an essential amino acid which helps maintain healthy heart and improves eyesight and improve the digestive system.",
+    "category": "cfood",
+    "price": 350,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "35",
+    "title": "Schesir 51% Tuna with Shrimps Wet Cat Food,85g",
+    "image": "../assets/images/cf5.png",
+    "description": "Schesir Tuna and Shrimp Canned Cat Food is a fishy fun wet food that felines everywhere crave.This is a complete and balanced diet, so it can be fed as your pets only source of nutrition.",
+    "category": "cfood",
+    "price": 169,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "36",
+    "title": "whiskas dry cat food",
+    "image": "../assets/images/cf6.png",
+    "description": "Provides 28% protein with added vitamins and minerals. It is rich in taste.",
+    "category": "cfood",
+    "price": 169,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "37",
+    "title": "Bathing Tub",
+    "image": "../assets/images/u1.jfif",
+    "description": "A dog bathtub is designed to make bathing a dog easier",
+    "category": "a",
+    "price": 169,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "38",
+    "title": "Brushing Combo",
+    "image": "../assets/images/u3.jfif",
+    "description": "Regular brushing with a dog paste or dental gel will keep the dog’s breath fresh. The medical term for bad breath is halitosis.",
+    "category": "a",
+    "price": 169,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "39",
+    "title": "Deodorant",
+    "image": "../assets/images/u4.jfif",
+    "description": "Deodorant is still classified as toxic for dogs if a huge amount of deodorants has been ingested. Keep an eye on your dog’s behavior if it looks like drooling and lethargy. Take your dog to the vet to check whether your dog’s condition needs special treatment or not. Is Dove Deodorant Toxic To Dogs? Dogs of all kinds should not eat deodorants.",
+    "category": "a",
+    "price": 169,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "40",
+    "title": "Nail clipper",
+    "image": "../assets/images/u5.jfif",
+    "description": "Nail clippers for small dogs is the guillotine type. Guillotine clippers have a hole for the nail to fit into and a single blade that comes down to trim it",
+    "category": "a",
+    "price": 169,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "41",
+    "title": "Soap",
+    "image": "../assets/images/u6.jfif",
+    "description": "Soap is an ancient process which dates back almost 5000 years. It is made from a chemical reaction between natural oils and sodium hydroxide (NaOH) also known as caustic soda.",
+    "category": "a",
+    "price": 169,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "43",
+    "title": "CtilFelix Dog Shirt Striped Puppy Clothes",
+    "image": "../assets/images/dr1.png",
+    "description": "Smooth & breathable combed cotton material. The soft & durable texture suits all seasons of wear. Give an adequate cover to protect them from hot sunburn and keep them cool. Offer warm keeping in cold weather. It also can protect them from scratching or other skin issues.",
+    "category": "b",
+    "price": 40,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "43",
+    "title": "Dog Sweatshirts, Winter Dog",
+    "image": "../assets/images/dr2.png",
+    "description": "Dog Sweatshirts are both functional and fashion accessories. They provide extra warmth for dogs that are hairless or suffer from the cold.",
+    "category": "b",
+    "price": 1000,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "44",
+    "title": "Dog Shirts Pet Puppy T-Shirt Clothes",
+    "image": "../assets/images/dr3.png",
+    "description": "Pet Dog/Cat Clothes Shirts Durable & Breathable Material, make your Puppy more comfortable.",
+    "category": "b",
+    "price": 100,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "45",
+    "title": "Dog Fleece Vest",
+    "image": "../assets/images/dr4.png",
+    "description": "Dog cold weather pullover has a fashionable look and warm texture, perfect for your dog to keep warmth and display beauty when going outside.",
+    "category": "b",
+    "price": 300,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "45",
+    "title": "Dog Costume Clothes,Cute Denim",
+    "image": "../assets/images/dr5.png",
+    "description": "Soft and comfortable denim fabric.Fit for all seasons: Spring, Summer, Fall and Winter.",
+    "category": "b",
+    "price": 700,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "46",
+    "title": "Warm Fleece Cat Sweater",
+    "image": "../assets/images/cr1.png",
+    "description": "Premium material makes the dog sweater super soft and comfortable to wear and retains the body heat of your pet.",
+    "category": "b",
+    "price": 800,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "47",
+    "title": "Cat Shirts Pet Clothes",
+    "image": "../assets/images/cr2.png",
+    "description": "outfits are made of high-quality cotton fabric, breathable and comfortable, and will not harm your pet's skin.",
+    "category": "b",
+    "price": 300,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "48",
+    "title": "Winter Cat Hoodie",
+    "image": "../assets/images/cr3.png",
+    "description": "Keep your pet cat warmer and more lovely.",
+    "category": "b",
+    "price": 300,
+    "discount": 10,
+    "quantity": 0
+  },
+  {
+    "id": "49",
+    "title": "Cat Surgical Recovery Suit",
+    "image": "../assets/images/cr4.png",
+    "description": "Female cats can be dressed after surgery as infertility clothing, post-pregnancy weaning clothing, or to prevent chills in the stomach.",
+    "category": "b",
+    "price": 500,
+    "discount": 10,
+    "quantity": 0
+  }
+]

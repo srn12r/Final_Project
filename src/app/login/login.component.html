@@ -1,0 +1,81 @@
+
+<body class="background_img">
+<div class="demo" > 
+
+    <button  class="close-icon" matSuffix [mat-dialog-close]="true" mat-mini-fab color="danger">     
+        <mat-icon>close</mat-icon>     
+      </button>     
+      <br>     
+      <h2 style="text-align: center;  font-family: 'Times New Roman', Times, serif;">WELCOME BACK</h2>     
+      <br>     
+      <mat-grid-list cols="1" rowHeight="100px" > 
+    
+        <form [formGroup]="service.formValidate1" (ngsubmit)="header()" class="demo">         
+    
+        <mat-grid-tile> 
+    
+          <div class="controles1"> 
+    
+            <mat-label class="form-label"><b>Username : </b></mat-label> 
+    
+            <mat-form-field appearance="fill">  
+    
+              <input formControlName="Username" matInput placeholder="user@example.com" > 
+    
+            </mat-form-field> 
+    
+          </div> 
+    
+        </mat-grid-tile> 
+    
+        <mat-grid-tile> 
+    
+          <div class="controles3"> 
+    
+            <mat-label class="form-label"><b>Password : </b></mat-label> 
+    
+            <mat-form-field appearance="fill"> 
+    
+              <input formControlName="Password" type="password" matInput placeholder="Password" required> 
+    
+            </mat-form-field> 
+    
+          </div> 
+    
+       </mat-grid-tile> 
+    
+        <mat-grid-tile> 
+    
+          <div class="button-row "> 
+    
+          <button mat-raised-button color="primary" (click)="header()" [disabled]="service.formValidate1.invalid" >LOGIN</button>
+    
+        &nbsp; 
+    
+        <button mat-raised-button color="primary" (click)="ClearValue1()">CLEAR</button> 
+    
+      </div> 
+    
+      </mat-grid-tile> 
+      <br> 
+      <br> 
+      <mat-grid-tile> 
+        <div class="button-row">     
+            <h3>New User?<button class="A" mat-raised-button color="primary" (click)="opendialog1()" style="left: 25px;">Create New Account</button>     
+            </h3> 
+    </div> 
+    
+    </mat-grid-tile> 
+    
+      </form> 
+    
+      </mat-grid-list> 
+    
+    </div> 
+
+</body>
+  
+
+
+
+

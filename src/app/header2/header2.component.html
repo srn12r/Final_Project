@@ -1,0 +1,39 @@
+<header id="header" class="fixed-top header-transparent btn btn-light">
+    <div class="box-container d-flex align-items-center justify-content-between">
+        <h1 class="m-0 text-uppercase text-dark"><i class="fas fa-paw fs-1 text-primary me-3"></i>Pet Paradise</h1>
+        <nav id="navbar" class="navbar">
+            <ul>
+                <div class="navbar-brand ms-lg-6">
+                    <div class="form-group">
+                        <input type="text" class="form-control " [(ngModel)]="searchTerm" (keyup)="search($event)"
+                            placeholder="search products">
+                    </div>
+                    
+                </div>
+                <!--
+                <div>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button (click)="b()" class="btn ">
+                        <i  style="font-size: 29px; " class="bi bi-person-circle user"></i> 
+                        
+                    </button>
+                    &nbsp;&nbsp;&nbsp;
+                    
+                </div>
+            -->
+
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <button (click)="by()" class="btn ">
+                    <i style="font-size: 30px; "  class="bi bi-cart3"></i>
+                    <div style="font-size: 10px;" class="badge bg-danger">{{totalItem}}</div>
+                    
+                </button>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <a routerLink="/" class="nav-item nav-link nav-contact  text-black px-1 ms-lg-2">Log Out </a>
+
+            </ul>
+        </nav>
+    </div>
+</header>
+<br>
+<app-products></app-products>

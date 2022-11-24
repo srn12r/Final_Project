@@ -1,0 +1,33 @@
+.mat-grid-list{ 
+    
+    opacity: 1.0; 
+
+    box-shadow: 0 0 2px 0; 
+    
+}
+.full_screen{
+    width: fit-content;
+    height: fit-content;
+}
+ 
+.background_img{
+    background-size:cover;
+    background-image: linear-gradient(#FDDB92,
+    #D1FDFF);
+}
+.header {
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+.card{
+    margin-top: 15px;
+    border:1px solid blue;
+    width: 550px;
+    position: absolute;
+    padding: 45px;
+    top: 15%;
+    left:35%;
+}

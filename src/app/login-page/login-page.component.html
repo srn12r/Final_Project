@@ -1,0 +1,77 @@
+
+<div class="login-wrap">
+    <div class="login-html">
+        <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
+        <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+        <div class="login-form">
+            <div class="sign-in-htm">
+                <form [formGroup]="loginForm"  (ngSubmit)="login()">
+                <div class="group">
+                    <label for="user" class="label">E-mail</label>
+                    <input formControlName="email" id="email" type="email" class="input">
+                    <span class="text-danger" *ngIf="loginForm.controls['email'].dirty && loginForm.hasError('required','email')">*E-mail is required</span>
+                </div>
+                <div class="group">
+                    <label for="pass" class="label">Password</label>
+                    <input formControlName="password" id="pass" type="password" class="input" data-type="password">
+                    <span class="text-danger" *ngIf="loginForm.controls['password'].dirty && loginForm.hasError('required','password')">*password is required</span>
+                </div>
+                <div class="group">
+                    <input id="check" type="checkbox" class="check" checked>
+                    <label for="check"><span class="icon"></span> Keep me Signed in</label>
+                </div>
+                <div class="group">
+                    <input type="submit" class="button" value="Sign In">
+                </div>
+                </form>
+                <div class="hr"></div>
+                <div class="foot-lnk">
+                    <a href="#forgot">Forgot Password?</a>
+                </div>
+            </div>
+            <div class="sign-up-htm">
+                <form [formGroup]="signupform"  (ngSubmit)="signUp()">
+                <div class="group">
+                    <label for="user" class="label">Username</label>
+                    <input formControlName="name" id="user" type="text" class="input">
+                    <span class="text-danger" *ngIf="signupform.controls['name'].dirty && signupform.hasError('required','name')">*User-name is required</span>
+                </div>
+                
+                
+                <div class="group">
+                    <label for="pass" class="label">E-mail Address</label>
+                    <input formControlName="email"id="pass" type="text" class="input" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                    <span class="text-danger" *ngIf="signupform.controls['email'].dirty && signupform.hasError('required','email')">*E-mail is required</span>
+                </div>
+                <!--
+                <div class="group">
+                    <label for="pass" class="label">Password</label>
+                    <input formControlName="password" id="pass" type="password" class="input" data-type="password">
+                </div>
+            -->
+                
+                <div class="group">
+                    <label for="pass" class="label">Password</label>
+                    <input formControlName="password" id="pass" type="password" class="input" data-type="password" pattern=".{8,}">
+                    <span class="text-danger" *ngIf="signupform.controls['password'].dirty && signupform.hasError('required','password')">*password is required</span>
+                </div>
+                <div class="group">
+                    <label for="pass" class="label">Confirm Password</label>
+                    <input id="pass" type="password" class="input" data-type="password" pattern=".{8,}">
+                    <span class="text-danger" *ngIf="signupform.controls['password'].dirty && signupform.hasError('required','password')">*password is required</span>
+                </div>
+                <div class="group">
+                    <input type="submit" class="button" d value="Sign Up">
+                </div>
+                <div class="foot-lnk">
+                 <label for="tab-1">Already Member?</label>
+                </div>
+            </form>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
